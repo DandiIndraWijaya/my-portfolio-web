@@ -1,5 +1,5 @@
 import { createTheme } from '@mui/material/styles';
-import 'typeface-tenor-sans';
+import '@fontsource/noto-sans';
 
 declare module '@mui/material/styles' {
   interface Palette {
@@ -12,7 +12,8 @@ declare module '@mui/material/styles' {
     line: string
     inputBg: string
     offWhite: string
-    bg: string
+    bgDark: string
+    bgLight: string
   }
   interface PaletteOptions {
     dark: string
@@ -24,7 +25,8 @@ declare module '@mui/material/styles' {
     line: string
     inputBg: string
     offWhite: string
-    bg: string
+    bgDark: string
+    bgLight: string
   }
 
   interface TypographyVariants {
@@ -77,10 +79,11 @@ const theme = createTheme({
     line: '#E0CFBA',
     inputBg: '#F9F9F9',
     offWhite: '#FCFCFC',
-    bg: '#F8F0E7'
+    bgDark: '#323232',
+    bgLight: '#f5f5f5'
   },
   typography: {
-    fontFamily: 'Tenor Sans',
+    fontFamily: 'Noto Sans',
     title: {
       fontSize: '18px',
       fontWeight: 400,

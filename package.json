@@ -6,6 +6,7 @@
     "@craco/craco": "^7.0.0",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@fontsource/noto-sans": "^4.5.11",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.8",
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,6 +21,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
     "typescript": "*",
     "web-vitals": "^2.1.4"
   },
@@ -48,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-slick": "^0.23.10",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "eslint": "^8.0.1",
     "eslint-config-standard-with-typescript": "^34.0.0",

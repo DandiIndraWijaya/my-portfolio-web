@@ -1,8 +1,6 @@
 import React from 'react';
-import { Box, Container } from '@mui/material';
+import { Box } from '@mui/material';
 import PropTypes from 'prop-types';
-import Header from './Header';
-import Footer from './Footer';
 
 interface Props {
   children: React.ReactNode
@@ -11,11 +9,7 @@ interface Props {
 const Layout: React.FC<Props> = ({ children }: Props) => {
   return (
     <Box>
-      <Header />
-      <Container sx={{ minHeight: '100vh' }}>
-        {children}
-      </Container>
-      <Footer />
+      {children}
     </Box>
   );
 };

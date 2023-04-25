@@ -7,6 +7,8 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme';
 import router from './routes';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
