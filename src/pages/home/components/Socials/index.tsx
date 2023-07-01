@@ -79,6 +79,7 @@ const Socials: React.FC = () => {
           return (
             <Box key={key} marginX="15px">
               <IconButton
+                aria-label="Dandi's social media"
                 sx={{
                   borderRadius: '8px',
                   padding: '1px',

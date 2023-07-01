@@ -68,6 +68,7 @@ const Description: React.FC = () => {
                 src={Me}
                 width="100%"
                 borderRadius="50%"
+                alt="Dandi Indra Wijaya Profile"
               />
             </Box>
           </Box>

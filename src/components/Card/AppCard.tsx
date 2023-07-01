@@ -20,6 +20,7 @@ const AppCard: React.FC = () => {
         }}
         // eslint-disable-next-line max-len
         src="https://cdn-apac.onetrust.com/logos/5dff103c-2a09-4851-a961-b111ef81c289/9dc3dcac-20e2-4454-a403-d22799f10816/2b5c934c-e51b-4f63-b481-6d72ee93a050/Gojek_Logo_Horizontal.jpg"
+        alt="Dandi Indra Wijaya's Work"
       />
     </Box>
   );

@@ -26,6 +26,7 @@ const Footer: React.FC<Props> = ({ onClickMyApps }: Props) => {
       </Box> */}
       <Box>
         <IconButton
+          aria-label="Dandi's works button"
           onClick={onClickMyApps}
           sx={{
             borderRadius: '8px',
